@@ -440,6 +440,24 @@
 											"height": 13,
 											"text": "+print()",
 											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "NEW_ACCEPT_VISITOR_ID",
+											"_parent": {
+												"$ref": "AAAAAAGLFR74MD6A0MQ="
+											},
+											"model": {
+												"$ref": "NEW_ACCEPT_VISITOR_ID"
+											},
+											"fillColor": "#ffcc99",
+											"font": "Arial;13;0",
+											"left": 645,
+											"top": 260,
+											"width": 102.2353515625,
+											"height": 13,
+											"text": "+accept(visitor: ItemVisitor)",
+											"horizontalAlignment": 0
 										}
 									],
 									"fillColor": "#ffcc99",
@@ -447,7 +465,7 @@
 									"left": 640,
 									"top": 240,
 									"width": 112.2353515625,
-									"height": 23
+									"height": 36
 								},
 								{
 									"_type": "UMLReceptionCompartmentView",
@@ -490,7 +508,7 @@
 							"left": 640,
 							"top": 192,
 							"width": 112.2353515625,
-							"height": 71,
+							"height": 84,
 							"showProperty": false,
 							"nameCompartment": {
 								"$ref": "AAAAAAGLFR74MD56uLA="
@@ -940,6 +958,24 @@
 											"height": 13,
 											"text": "+print()",
 											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "NEW_BOOK_ACCEPT_VISITOR_ID",
+											"_parent": {
+												"$ref": "AAAAAAGLFR9D9j+TmdA="
+											},
+											"model": {
+												"$ref": "NEW_BOOK_ACCEPT_VISITOR_ID"
+											},
+											"fillColor": "#ffcc99",
+											"font": "Arial;13;0",
+											"left": 573,
+											"top": 380,
+											"width": 102.2353515625,
+											"height": 13,
+											"text": "+accept(visitor: ItemVisitor)",
+											"horizontalAlignment": 0
 										}
 									],
 									"fillColor": "#ffcc99",
@@ -947,7 +983,7 @@
 									"left": 568,
 									"top": 360,
 									"width": 112.2353515625,
-									"height": 23
+									"height": 36
 								},
 								{
 									"_type": "UMLReceptionCompartmentView",
@@ -990,7 +1026,7 @@
 							"left": 568,
 							"top": 312,
 							"width": 112.2353515625,
-							"height": 71,
+							"height": 84,
 							"showProperty": false,
 							"nameCompartment": {
 								"$ref": "AAAAAAGLFR9D9j+N6UQ="
@@ -1256,6 +1292,24 @@
 											"height": 13,
 											"text": "+print()",
 											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "NEW_CD_ACCEPT_VISITOR_ID",
+											"_parent": {
+												"$ref": "AAAAAAGLFR9RUT/fyTI="
+											},
+											"model": {
+												"$ref": "NEW_CD_ACCEPT_VISITOR_ID"
+											},
+											"fillColor": "#ffcc99",
+											"font": "Arial;13;0",
+											"left": 713.919921875,
+											"top": 382,
+											"width": 121.9765625,
+											"height": 13,
+											"text": "+accept(visitor: ItemVisitor)",
+											"horizontalAlignment": 0
 										}
 									],
 									"fillColor": "#ffcc99",
@@ -1263,7 +1317,7 @@
 									"left": 708.919921875,
 									"top": 362,
 									"width": 131.9765625,
-									"height": 23
+									"height": 36
 								},
 								{
 									"_type": "UMLReceptionCompartmentView",
@@ -1302,7 +1356,7 @@
 							"left": 708.919921875,
 							"top": 314,
 							"width": 131.9765625,
-							"height": 71,
+							"height": 107,
 							"showProperty": false,
 							"nameCompartment": {
 								"$ref": "AAAAAAGLFR9RUT/Zawc="
@@ -1365,7 +1419,7 @@
 									"left": 708,
 									"top": 298,
 									"height": 13,
-									"alpha": 1.5707963267948966,
+										"alpha": 1.5707963267948966,
 									"distance": 30,
 									"hostEdge": {
 										"$ref": "AAAAAAGLFR9RYEAKY9M="
@@ -1531,6 +1585,27 @@
 							},
 							"name": "print",
 							"isAbstract": true
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "NEW_ACCEPT_VISITOR_ID",
+							"_parent": {
+								"$ref": "AAAAAAGLFR74MD53aRs="
+							},
+							"name": "accept",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "NEW_ACCEPT_VISITOR_PARAM_ID",
+									"_parent": {
+										"$ref": "NEW_ACCEPT_VISITOR_ID"
+									},
+									"name": "visitor",
+									"type": {
+										"$ref": "NEW_ITEM_VISITOR_ID"
+									}
+								}
+							]
 						}
 					]
 				},
@@ -1575,6 +1650,27 @@
 								"$ref": "AAAAAAGLFR9D9T+KNoo="
 							},
 							"name": "print"
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "NEW_BOOK_ACCEPT_VISITOR_ID",
+							"_parent": {
+								"$ref": "AAAAAAGLFR9D9T+KNoo="
+							},
+							"name": "accept",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "NEW_BOOK_ACCEPT_VISITOR_PARAM_ID",
+									"_parent": {
+										"$ref": "NEW_BOOK_ACCEPT_VISITOR_ID"
+									},
+									"name": "visitor",
+									"type": {
+										"$ref": "NEW_ITEM_VISITOR_ID"
+									}
+								}
+							]
 						}
 					]
 				},
@@ -1619,6 +1715,136 @@
 								"$ref": "AAAAAAGLFR9RUD/W1zs="
 							},
 							"name": "print"
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "NEW_CD_ACCEPT_VISITOR_ID",
+							"_parent": {
+								"$ref": "AAAAAAGLFR9RUD/W1zs="
+							},
+							"name": "accept",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "NEW_CD_ACCEPT_VISITOR_PARAM_ID",
+									"_parent": {
+										"$ref": "NEW_CD_ACCEPT_VISITOR_ID"
+									},
+									"name": "visitor",
+									"type": {
+										"$ref": "NEW_ITEM_VISITOR_ID"
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"_type": "UMLInterface",
+					"_id": "NEW_ITEM_VISITOR_ID",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "ItemVisitor",
+					"operations": [
+						{
+							"_type": "UMLOperation",
+							"_id": "NEW_VISIT_BOOK_ID",
+							"_parent": {
+								"$ref": "NEW_ITEM_VISITOR_ID"
+							},
+							"name": "visit",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "NEW_VISIT_BOOK_PARAM_ID",
+									"_parent": {
+										"$ref": "NEW_VISIT_BOOK_ID"
+									},
+									"name": "book",
+									"type": {
+										"$ref": "AAAAAAGLFR9D9T+KNoo="
+									}
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "NEW_VISIT_CD_ID",
+							"_parent": {
+								"$ref": "NEW_ITEM_VISITOR_ID"
+							},
+							"name": "visit",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "NEW_VISIT_CD_PARAM_ID",
+									"_parent": {
+										"$ref": "NEW_VISIT_CD_ID"
+									},
+									"name": "cd",
+									"type": {
+										"$ref": "AAAAAAGLFR9RUD/W1zs="
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"_type": "UMLClass",
+					"_id": "NEW_PRINT_VISITOR_ID",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "PrintVisitor",
+					"interfaces": [
+						{
+							"$ref": "NEW_ITEM_VISITOR_ID"
+						}
+					],
+					"operations": [
+						{
+							"_type": "UMLOperation",
+							"_id": "NEW_PRINT_VISIT_BOOK_ID",
+							"_parent": {
+								"$ref": "NEW_PRINT_VISITOR_ID"
+							},
+							"name": "visit",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "NEW_PRINT_VISIT_BOOK_PARAM_ID",
+									"_parent": {
+										"$ref": "NEW_PRINT_VISIT_BOOK_ID"
+									},
+									"name": "book",
+									"type": {
+										"$ref": "AAAAAAGLFR9D9T+KNoo="
+									}
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "NEW_PRINT_VISIT_CD_ID",
+							"_parent": {
+								"$ref": "NEW_PRINT_VISITOR_ID"
+							},
+							"name": "visit",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "NEW_PRINT_VISIT_CD_PARAM_ID",
+									"_parent": {
+										"$ref": "NEW_PRINT_VISIT_CD_ID"
+									},
+									"name": "cd",
+									"type": {
+										"$ref": "AAAAAAGLFR9RUD/W1zs="
+									}
+								}
+							]
 						}
 					]
 				}
