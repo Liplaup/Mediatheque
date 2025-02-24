@@ -1,4 +1,3 @@
-
 package mediatheque;
 
 
@@ -24,7 +23,12 @@ public class Book extends Item {
 
 	@Override
 	public String toString() {
-		return "Book{" + super.toString() + ", author=" + author + '}';
+		return "Livre{" + super.toString() + ", auteur=" + author + '}';
+	}
+
+	@Override
+	public void accept(ItemVisitor IV){
+		IV.visit(this);
 	}
 	
 	

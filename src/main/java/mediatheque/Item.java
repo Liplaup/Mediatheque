@@ -18,7 +18,8 @@ public abstract class Item {
 
 	@Override
 	public String toString() {
-		return "title=" + title ;
+		return "Le titre est " + title ;
 	}
-	
+
+	public abstract void accept(ItemVisitor IV);
 }
